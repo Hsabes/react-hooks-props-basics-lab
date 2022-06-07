@@ -11,10 +11,12 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home />
-      <About />
+      <Home {...user} />
+      <About {...user}/>
     </div>
   );
 }
+
+
 
 export default App;
